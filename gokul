@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        
+
+    <title>Gokulkumar.M</title>
+    <style>
+        body{
+            padding:0;
+            margin:0;
+            background:#f1f1f1;
+            box-sizing: border-box; 
+            font-family: 'Montserrat', sans-serif;
+
+        }
+        .card-container{
+            width:300px;
+            height:430px;
+            background:#fff;
+        border-radius:6px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        overflow:hidden;
+        display: inline-block;
+        border:2px solid #e3e4e6;
+
+        }
+        .upper-container{
+            height:150px;
+            background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+        }
+        .lower-container{
+            height:280px;
+            padding:20px;
+            padding-top:40px;
+            text-align: center;
+        }
+        .lower-container h3,h4{
+            box-sizing: border-box;
+            line-height:.6;
+            font-weight:lighter;
+        }
+         .lower-container{
+             font-weight: bold;
+         }
+         .lower-container p{
+             margin-bottom: 30px;
+         }
+         .lower-container .btn{
+             padding:12px 20px;
+             background:#7f00ff;
+             border:none;
+             color:white;
+             border-radius:30px;
+             font-size:12px;
+text-decoration: none;
+font-weight:bold;
+         }
+        .image-container{
+              background:white;
+              width:80px;
+              height:80px;
+              border-radius:50%;
+              padding:5px;
+              transform:translate(100px,100px);
+        }
+        .image-container img{
+              width:80px;
+              height:80px;
+              border-radius:50%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card-container">
+
+        <div class="upper-container">
+           <div class="image-container">
+               <img src="images/images1.jpg">
+           </div>
+        </div>
+
+        <div class="lower-container">
+            
+                <div>
+                    <h3>Gokul Kumar.M</h3>
+                    <h4>Placement Trainer | Data Analyst</h4>
+                </div>
+                <div>
+                    <h5>Unikaksha</h5>
+                </div>
+                <div>
+                    <a href="https://gokulmatheswaran.github.io/Qualification/">Education</a>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <a href="https://github.com/GokulMatheswaran" class="btn">View profile</a>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
